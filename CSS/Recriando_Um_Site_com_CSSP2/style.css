@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+.body2{
+    background-color: #f8ebeb;
+    width: 80%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
+
+.pubtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.data{
+    color: #0aa1a1;
+}
+
+
+.post{
+    margin: 0px 30px 30px 30px;
+    padding-top: 2px;
+    padding-left: 2px;
+}

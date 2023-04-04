@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgrey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.grids{
+    flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "intem1 intem1 intem2"
+    "intem1 intem1 intem3"
+    "intem4 intem4 intem4"
+    "intem5 intem5 intem6"
+    "intem5 intem5 intem7"
+    "intem8 intem8 intem8";
+    gap: 10px 15px;
+    padding: 20px;
+}
+
+
+
+.intem{
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intem1{
+    grid-area: intem1;
+}
+
+.intem2{
+    grid-area: intem2;
+}
+
+.intem3{
+    grid-area: intem3;
+}
+
+.intem4{
+    grid-area: intem4;
+}
+
+.intem5{
+    grid-area: intem5;
+}
+
+.intem6{
+    grid-area: intem6;
+}
+
+.intem7{
+    grid-area: intem7;
+}
+
+.intem8{
+    grid-area: intem8;
+}
+
+
+.footer{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}     

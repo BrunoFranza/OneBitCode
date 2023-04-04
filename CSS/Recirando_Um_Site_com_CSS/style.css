@@ -1,0 +1,25 @@
+body{
+    background-color: #2C3E50;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h3{
+    background-color: #F1C40F;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h4{
+    color: #F1C40F;
+}
+
+li{
+    color:aliceblue;
+}
+
+#obg{
+    color: red;
+}

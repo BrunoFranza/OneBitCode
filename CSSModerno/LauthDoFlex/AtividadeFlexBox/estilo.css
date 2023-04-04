@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.intem{
+    border: solid 2px black;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+}
+
+.intem1{
+ width: 100%;
+}
+
+.intem2{
+    flex: 1 0 200px;
+}
+
+.intem3{
+    flex: 1 0 200px;
+}
+
+.intem4{
+    flex: 1 0 200px;
+}
+
+.intem5{
+    flex: 1 0 200px;
+}
+
+.intem6{
+    flex: 1 0 200px;
+}
+
+.intem7{
+    flex: 1 0 200px;
+}
+
+.intem8{
+    width: 100%;
+}

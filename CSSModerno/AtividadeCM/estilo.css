@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.icone{
+    width: 36px;
+    height: 45px;
+}
+
+.logo{
+    width: 255px;
+
+}
+
+.bottons{
+    gap: 15px;
+    display: flex;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    border-color: brown;
+}

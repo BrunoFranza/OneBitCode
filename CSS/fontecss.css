@@ -1,0 +1,13 @@
+p{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;   /*   - font-weight é a marcação que faz deixar a fonte em negrito */
+    line-height: 1.5;   /*   - line-height é o espaçamento da fonte, das l e t r a s  */
+}
+
+h1{
+    text-align: left; 
+    text-decoration: underline;
+    margin: 45px auto 45px auto;   /*4 elementos começando por cima e indo sentindo horario*/
+    width: 10%;
+}

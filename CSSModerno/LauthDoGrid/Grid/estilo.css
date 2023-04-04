@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paragrafo{
+    font-size:  30px;
+}
+
+.container{
+    background-color: darkgrey;
+    min-height: 100vh;
+    display: grid;
+    /* grid-template-columns: 25% 50% 25%; /* Divide em porcentagem as colunas, nesse caso são 3 */
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px 20px; /* Primeiro é a distancia das linhas e depois das larguras */
+    /* grid-template-rows: repeat(3 ,1fr); /* Divide em porcentagem as linhas, nesse caso são 3 */
+    grid-auto-rows: minmax(240px , 240px); /* Faz com que o cubo nao quebre ao ser minimizado, mas eu tenho q verificar até onde ele pode minimizar */
+}
+
+.intem{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+

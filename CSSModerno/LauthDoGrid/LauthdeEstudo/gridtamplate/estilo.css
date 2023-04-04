@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    gap: 10px 15px;
+    grid-template-areas: 
+    "intem1 intem1 intem1"
+    "intem2 intem2 intem3"
+    "intem2 intem2 intem4"
+    "intem5 intem5 intem5"
+    "intem5 intem5 intem5"
+    "intem6 intem7 intem7"
+    "intem8 intem7 intem7"
+    "intem9 intem9 intem9";
+}
+
+
+
+.intem{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.intem1{
+    grid-area: intem1;
+}
+
+.intem2{
+    grid-area: intem2;
+}
+
+.intem5{
+    grid-area: intem5;
+}
+
+.intem7{
+    grid-area: intem7;
+}
+
+.intem9{
+    grid-area: intem9;
+}
+
+
+
+

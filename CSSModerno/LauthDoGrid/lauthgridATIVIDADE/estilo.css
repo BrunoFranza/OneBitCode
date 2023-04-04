@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.header{
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    height: 60px;
+}
+
+.main-con{
+    flex: 1 0 auto;
+    padding: 10px;
+    display: grid;
+    gap: 5px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "intem1 intem2 intem3"
+    "intem4 intem4 intem4"
+    "intem5 intem5 intem6"
+    ;
+
+}
+
+.intem{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.intem1{
+    grid-area: intem1;
+}
+
+.intem2{
+    grid-area: intem2;
+}
+
+.intem3{
+    grid-area: intem3;
+}
+
+.intem4{
+    grid-area: intem4;
+}
+
+.intem5{
+    grid-area: intem5;
+}
+
+.intem6{
+    grid-area: intem6;
+}
+
+.footer{
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    height: 60px;
+}
